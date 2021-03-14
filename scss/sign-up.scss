@@ -1,0 +1,32 @@
+@import "./variables.scss";
+@import "./colors.scss";
+@import "./fonts.scss";
+
+.intron-signup {
+  background: url(../img/labeler-signup-bg.png);
+  background-size: cover;
+  height: 550px;
+  position: relative;
+
+  &__back-arrow {
+    position: absolute;
+    left: 60px;
+    top: 50px;
+  }
+
+  &__speech-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__form {
+    background: white;
+    border-radius: var(--border-radius);
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+    margin-top: 356px;
+  }
+}
