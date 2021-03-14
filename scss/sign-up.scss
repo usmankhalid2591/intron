@@ -28,7 +28,7 @@
     padding: 50px;
     input,
     select {
-      border-radius: var(--border-radius-0);
+      border-radius: var(--border-radius-5) !important;
     }
 
     .form-control:focus,
