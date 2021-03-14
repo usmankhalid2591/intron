@@ -2,28 +2,10 @@
 @import "./variables.scss";
 @import "./colors.scss";
 @import "./fonts.scss";
-
+@import "./generic.scss";
 @import "./sign-up.scss";
 
-.--custom-container {
-  max-width: calc(100% - 260px);
-  margin: 0 auto;
-  position: relative;
-}
-
-.back-arrow {
-  background: white;
-  border-radius: 50px;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary);
-  text-decoration: none;
-}
-
-.back-arrow:hover {
-  text-decoration: none;
-  color: var(--primary);
+// Misc Styles
+.--padding-top-356 {
+  padding-top: 356px;
 }

@@ -23,10 +23,18 @@
 
   &__form {
     background: white;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-20);
     width: 100%;
     padding: 50px;
-    position: absolute;
-    margin-top: 356px;
+    input,
+    select {
+      border-radius: var(--border-radius-0);
+    }
+
+    .form-control:focus,
+    .custom-control-input:focus {
+      box-shadow: 0px 0px 2px 2px #c6e86fa8 !important;
+      border-color: #c6e86fa8 !important;
+    }
   }
 }
