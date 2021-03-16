@@ -32,26 +32,567 @@
   font-family: "Poppins", sans-serif;
 }
 
+.--fs-8 {
+  font-size: 8px;
+}
+
 .--fs-10 {
   font-size: 10px;
 }
 
-.--fs-15 {
-  font-size: 15px;
+.--fs-12 {
+  font-size: 12px;
+}
+
+.--fs-14 {
+  font-size: 14px;
 }
 
 .--fs-16 {
   font-size: 16px;
 }
 
-.--fs-17 {
-  font-size: 17px;
-}
-
 .--fs-18 {
   font-size: 18px;
 }
 
+.--fs-20 {
+  font-size: 1.25rem;
+}
+
+.--fs-22 {
+  font-size: 22px;
+}
+
 .--fs-24 {
   font-size: 24px;
+}
+
+.--fs-26 {
+  font-size: 26px;
+}
+
+.--fs-28 {
+  font-size: 28px;
+}
+.--fs-30 {
+  font-size: 30px;
+}
+
+.--fs-32 {
+  font-size: 32px;
+}
+
+.--fs-34 {
+  font-size: 34px;
+}
+
+.--fs-36 {
+  font-size: 36px;
+}
+
+.--fs-38 {
+  font-size: 38px;
+}
+
+.--fs-40 {
+  font-size: 40px;
+}
+
+.--fs-42 {
+  font-size: 42px;
+}
+
+.--fs-44 {
+  font-size: 44px;
+}
+
+.--fs-46 {
+  font-size: 46px;
+}
+
+.--fs-48 {
+  font-size: 48px;
+}
+
+.--fs-50 {
+  font-size: 50px;
+}
+
+.--fs-52 {
+  font-size: 52px;
+}
+
+.--fs-54 {
+  font-size: 54px;
+}
+
+.--fs-56 {
+  font-size: 56px;
+}
+
+.--fs-58 {
+  font-size: 58px;
+}
+
+.--fs-60 {
+  font-size: 60px;
+}
+
+.--fs-62 {
+  font-size: 62px;
+}
+
+.--fs-64 {
+  font-size: 64px;
+}
+
+.--fs-66 {
+  font-size: 66px;
+}
+
+.--fs-68 {
+  font-size: 68px;
+}
+
+.--fs-70 {
+  font-size: 70px;
+}
+
+.--fs-72 {
+  font-size: 72px;
+}
+
+.--fs-74 {
+  font-size: 74px;
+}
+
+.--fs-76 {
+  font-size: 76px;
+}
+
+.--fs-78 {
+  font-size: 78px;
+}
+
+.--fs-80 {
+  font-size: 80px;
+}
+
+.--fs-82 {
+  font-size: 82px;
+}
+
+.--fs-84 {
+  font-size: 84px;
+}
+
+.--fs-86 {
+  font-size: 86px;
+}
+
+.--fs-88 {
+  font-size: 88px;
+}
+
+.--fs-90 {
+  font-size: 90px;
+}
+
+.--fs-92 {
+  font-size: 92px;
+}
+
+.--fs-94 {
+  font-size: 94px;
+}
+
+.--fs-96 {
+  font-size: 96px;
+}
+
+.--fs-98 {
+  font-size: 98px;
+}
+
+.--fs-100 {
+  font-size: 100px;
+}
+
+@media (max-width: 1200px) {
+  .--fs-medium-8 {
+    font-size: 8px;
+  }
+
+  .--fs-medium-10 {
+    font-size: 10px;
+  }
+
+  .--fs-medium-12 {
+    font-size: 12px;
+  }
+
+  .--fs-medium-14 {
+    font-size: 14px;
+  }
+
+  .--fs-medium-16 {
+    font-size: 16px;
+  }
+
+  .--fs-medium-18 {
+    font-size: 18px;
+  }
+
+  .--fs-medium-20 {
+    font-size: 1.25rem;
+  }
+
+  .--fs-medium-22 {
+    font-size: 22px;
+  }
+
+  .--fs-medium-24 {
+    font-size: 24px;
+  }
+
+  .--fs-medium-26 {
+    font-size: 26px;
+  }
+
+  .--fs-medium-28 {
+    font-size: 28px;
+  }
+  .--fs-medium-30 {
+    font-size: 30px;
+  }
+
+  .--fs-medium-32 {
+    font-size: 32px;
+  }
+
+  .--fs-medium-34 {
+    font-size: 34px;
+  }
+
+  .--fs-medium-36 {
+    font-size: 36px;
+  }
+
+  .--fs-medium-38 {
+    font-size: 38px;
+  }
+
+  .--fs-medium-40 {
+    font-size: 40px;
+  }
+
+  .--fs-medium-42 {
+    font-size: 42px;
+  }
+
+  .--fs-medium-44 {
+    font-size: 44px;
+  }
+
+  .--fs-medium-46 {
+    font-size: 46px;
+  }
+
+  .--fs-medium-48 {
+    font-size: 48px;
+  }
+
+  .--fs-medium-50 {
+    font-size: 50px;
+  }
+
+  .--fs-medium-52 {
+    font-size: 52px;
+  }
+
+  .--fs-medium-54 {
+    font-size: 54px;
+  }
+
+  .--fs-medium-56 {
+    font-size: 56px;
+  }
+
+  .--fs-medium-58 {
+    font-size: 58px;
+  }
+
+  .--fs-medium-60 {
+    font-size: 60px;
+  }
+
+  .--fs-medium-62 {
+    font-size: 62px;
+  }
+
+  .--fs-medium-64 {
+    font-size: 64px;
+  }
+
+  .--fs-medium-66 {
+    font-size: 66px;
+  }
+
+  .--fs-medium-68 {
+    font-size: 68px;
+  }
+
+  .--fs-medium-70 {
+    font-size: 70px;
+  }
+
+  .--fs-medium-72 {
+    font-size: 72px;
+  }
+
+  .--fs-medium-74 {
+    font-size: 74px;
+  }
+
+  .--fs-medium-76 {
+    font-size: 76px;
+  }
+
+  .--fs-medium-78 {
+    font-size: 78px;
+  }
+
+  .--fs-medium-80 {
+    font-size: 80px;
+  }
+
+  .--fs-medium-82 {
+    font-size: 82px;
+  }
+
+  .--fs-medium-84 {
+    font-size: 84px;
+  }
+
+  .--fs-medium-86 {
+    font-size: 86px;
+  }
+
+  .--fs-medium-88 {
+    font-size: 88px;
+  }
+
+  .--fs-medium-90 {
+    font-size: 90px;
+  }
+
+  .--fs-medium-92 {
+    font-size: 92px;
+  }
+
+  .--fs-medium-94 {
+    font-size: 94px;
+  }
+
+  .--fs-medium-96 {
+    font-size: 96px;
+  }
+
+  .--fs-medium-98 {
+    font-size: 98px;
+  }
+
+  .--fs-medium-100 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .--fs-small-8 {
+    font-size: 8px;
+  }
+
+  .--fs-small-10 {
+    font-size: 10px;
+  }
+
+  .--fs-small-12 {
+    font-size: 12px;
+  }
+
+  .--fs-small-14 {
+    font-size: 14px;
+  }
+
+  .--fs-small-16 {
+    font-size: 16px;
+  }
+
+  .--fs-small-18 {
+    font-size: 18px;
+  }
+
+  .--fs-small-20 {
+    font-size: 1.25rem;
+  }
+
+  .--fs-small-22 {
+    font-size: 22px;
+  }
+
+  .--fs-small-24 {
+    font-size: 24px;
+  }
+
+  .--fs-small-26 {
+    font-size: 26px;
+  }
+
+  .--fs-small-28 {
+    font-size: 28px;
+  }
+  .--fs-small-30 {
+    font-size: 30px;
+  }
+
+  .--fs-small-32 {
+    font-size: 32px;
+  }
+
+  .--fs-small-34 {
+    font-size: 34px;
+  }
+
+  .--fs-small-36 {
+    font-size: 36px;
+  }
+
+  .--fs-small-38 {
+    font-size: 38px;
+  }
+
+  .--fs-small-40 {
+    font-size: 40px;
+  }
+
+  .--fs-small-42 {
+    font-size: 42px;
+  }
+
+  .--fs-small-44 {
+    font-size: 44px;
+  }
+
+  .--fs-small-46 {
+    font-size: 46px;
+  }
+
+  .--fs-small-48 {
+    font-size: 48px;
+  }
+
+  .--fs-small-50 {
+    font-size: 50px;
+  }
+
+  .--fs-small-52 {
+    font-size: 52px;
+  }
+
+  .--fs-small-54 {
+    font-size: 54px;
+  }
+
+  .--fs-small-56 {
+    font-size: 56px;
+  }
+
+  .--fs-small-58 {
+    font-size: 58px;
+  }
+
+  .--fs-small-60 {
+    font-size: 60px;
+  }
+
+  .--fs-small-62 {
+    font-size: 62px;
+  }
+
+  .--fs-small-64 {
+    font-size: 64px;
+  }
+
+  .--fs-small-66 {
+    font-size: 66px;
+  }
+
+  .--fs-small-68 {
+    font-size: 68px;
+  }
+
+  .--fs-small-70 {
+    font-size: 70px;
+  }
+
+  .--fs-small-72 {
+    font-size: 72px;
+  }
+
+  .--fs-small-74 {
+    font-size: 74px;
+  }
+
+  .--fs-small-76 {
+    font-size: 76px;
+  }
+
+  .--fs-small-78 {
+    font-size: 78px;
+  }
+
+  .--fs-small-80 {
+    font-size: 80px;
+  }
+
+  .--fs-small-82 {
+    font-size: 82px;
+  }
+
+  .--fs-small-84 {
+    font-size: 84px;
+  }
+
+  .--fs-small-86 {
+    font-size: 86px;
+  }
+
+  .--fs-small-88 {
+    font-size: 88px;
+  }
+
+  .--fs-small-90 {
+    font-size: 90px;
+  }
+
+  .--fs-small-92 {
+    font-size: 92px;
+  }
+
+  .--fs-small-94 {
+    font-size: 94px;
+  }
+
+  .--fs-small-96 {
+    font-size: 96px;
+  }
+
+  .--fs-small-98 {
+    font-size: 98px;
+  }
+
+  .--fs-small-100 {
+    font-size: 100px;
+  }
 }

@@ -1,0 +1,12 @@
+.intron-recorder-component {
+  margin: 50px 0px;
+  .recording-mic {
+    padding: 25px;
+    border-radius: 20px;
+    &__icon {
+      display: flex;
+    }
+  }
+  .waves {
+  }
+}

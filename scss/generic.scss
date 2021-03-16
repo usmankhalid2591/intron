@@ -81,6 +81,16 @@ select {
   width: 350px;
 }
 
+.--small-btn {
+  height: 40px;
+  width: 89px;
+}
+
+.--btn-outlined {
+  border-radius: 50px;
+  border: 1px solid var(--border);
+}
+
 @media (max-width: 768px) {
   .--big-btn {
     width: 200px;

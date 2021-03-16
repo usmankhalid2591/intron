@@ -9,6 +9,7 @@
   --border: #33333320;
   --text: #333333;
   --light: #fcffff;
+  --shadow: #00000010;
 }
 
 .--c-primary {
@@ -51,6 +52,11 @@
 .--btn-gradient-to-left {
   background: var(--btn-gradient-to-left);
   color: white !important;
+}
+
+.--btn-orange {
+  background: var(--orange);
+  color: white;
 }
 
 .--c-link {
