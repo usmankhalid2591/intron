@@ -19,6 +19,22 @@
   border-radius: var(--border-radius-20);
 }
 
+.--border-tr-radius-20 {
+  border-top-right-radius: var(--border-radius-20);
+}
+
+.--border-tl-radius-20 {
+  border-top-left-radius: var(--border-radius-20);
+}
+
+.--border-br-radius-20 {
+  border-bottom-right-radius: var(--border-radius-20);
+}
+
+.--border-bl-radius-20 {
+  border-bottom-left-radius: var(--border-radius-20);
+}
+
 .--border-radius-50 {
   border-radius: var(--border-radius-50);
 }

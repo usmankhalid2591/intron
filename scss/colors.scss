@@ -5,6 +5,7 @@
   --secondary-transparent: #a8cf4580;
   --orange: #ff5757;
   --turquoise: #b7f6ea;
+  --turquoise-dark: #40dbbc;
   --btn-gradient-to-right: linear-gradient(to right, #47337b, #44559a);
   --btn-gradient-to-left: linear-gradient(to left, #47337b, #44559a);
   --link: #4a77ae;
@@ -12,6 +13,7 @@
   --text: #333333;
   --light: #fcffff;
   --shadow: #00000010;
+  --dull: #33333310;
 }
 
 .--c-primary {
@@ -75,4 +77,11 @@
 
 .--bg-light {
   background: var(--light);
+}
+
+.--c-dull {
+  color: var(--dull);
+}
+.--bg-dull {
+  background: var(--dull);
 }
