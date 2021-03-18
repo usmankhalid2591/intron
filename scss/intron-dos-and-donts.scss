@@ -11,10 +11,9 @@
     justify-content: center;
     padding-bottom: 200px;
   }
-
   &__section {
     .heading {
-      width: min-content;
+      width: max-content;
     }
 
     .heading::after {
@@ -27,14 +26,12 @@
       left: 0%;
     }
   }
-
   &__dos {
     background: url(../img/intron-dos-bg.png);
     background-position: left;
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-
   &__dos-first {
     background: url(../img/dos-first.png);
     @include bg-right;
