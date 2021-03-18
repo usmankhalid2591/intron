@@ -1,0 +1,95 @@
+.intron-dos-and-donts {
+  &__hero {
+    background: url(../img/intron-dos-and-donts-hero-bg.png);
+    background-position: left;
+    height: 495px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+  }
+
+  &__section {
+    .heading {
+      width: min-content;
+    }
+
+    .heading::after {
+      content: "";
+      height: 10px;
+      width: 100px;
+      background: linear-gradient(to right, var(--turquoise), #ffffff00);
+      position: absolute;
+      bottom: -10px;
+      left: 0%;
+    }
+  }
+
+  &__dos {
+    background: url(../img/intron-dos-bg.png);
+    background-position: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  &__dos-first {
+    background: url(../img/dos-first.png);
+    @include bg-right;
+  }
+  &__dos-second {
+    background: url(../img/dos-second.png);
+    @include bg-left;
+  }
+  &__dos-third {
+    background: url(../img/dos-third.png);
+    @include bg-right;
+  }
+  &__dos-fourth {
+    background: url(../img/dos-fourth.png);
+    @include bg-left;
+  }
+  &__dos-fifth {
+    background: url(../img/dos-fifth.png);
+    @include bg-right;
+  }
+  &__dos-sixth {
+    background: url(../img/dos-sixth.png);
+    @include bg-left;
+  }
+  &__dos-seventh {
+    background: url(../img/dos-seventh.png);
+    @include bg-right;
+  }
+  &__dont-first {
+    background: url(../img/dos-first.png);
+    @include bg-right;
+  }
+  &__dont-second {
+    background: url(../img/dos-second.png);
+    @include bg-left;
+  }
+  &__dont-third {
+    background: url(../img/dos-third.png);
+    @include bg-right;
+  }
+}
+
+@media (max-width: 768px) {
+  .intron-dos-and-donts {
+    &__dos-donts {
+      p {
+        padding: 2rem;
+        background: linear-gradient(
+          to right,
+          var(--primary-transparent),
+          var(--secondary-transparent)
+        );
+        border-radius: var(--border-radius-20);
+        color: white;
+      }
+    }
+  }
+}

@@ -3,10 +3,14 @@
   .recording-mic {
     padding: 25px;
     border-radius: 20px;
+    min-height: 300px;
     &__icon {
       display: flex;
     }
   }
   .waves {
+    padding: 25px;
+    border-radius: 20px;
+    min-height: 300px;
   }
 }

@@ -159,3 +159,8 @@ input,
 select {
   vertical-align: middle;
 }
+
+a:hover {
+  text-decoration: none;
+  color: var(--primary);
+}

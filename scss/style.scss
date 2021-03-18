@@ -1,5 +1,6 @@
 @import "./reset.scss";
 @import "./variables.scss";
+@import "./mixins.scss";
 @import "./colors.scss";
 @import "./fonts.scss";
 @import "./generic.scss";
@@ -9,9 +10,13 @@
 @import "./guest-signup.scss";
 
 @import "./header.scss";
+@import "./footer.scss";
 @import "./intron-recording-slider.scss";
 @import "./intron-recorder-component.scss";
 @import "./intron-recording.scss";
+@import "./intron-admin-listen-feedback.scss";
+
+@import "./intron-dos-and-donts.scss";
 
 // Misc Styles
 .--padding-top-356 {

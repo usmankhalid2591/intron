@@ -18,7 +18,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.min.css">
 
-    <title>Intron - Login</title>
+    <title>Intron - Admin Listen Feedback</title>
 </head>
 
 <body>
@@ -69,7 +69,7 @@
         </div>
     </div>
 
-    <div class="intron-recording">
+    <div class="intron-admin-listen-feedback">
 
         <div class="intron-recording-slider">
             <div class="--custom-container">
@@ -80,8 +80,8 @@
                                 <div>
                                     <div class="d-flex flex-wrap align-items-center justify-content-center text-center">
                                         <p class="m-0 mr-2">Click</p>
-                                        <img src="./img/mic-fill.png" alt="">
-                                        <p class="m-0 ml-2">then read the Sentence aloud</p>
+                                        <img src="./img/play-turquoise.png" alt="">
+                                        <p class="m-0 ml-2">did they accurately speak the sentence?</p>
                                     </div>
                                     <div class="mt-5 text-center">
                                         This characteristic immobility could be counteracted by the pre-administration
@@ -103,8 +103,8 @@
                                 <div>
                                     <div class="d-flex flex-wrap align-items-center justify-content-center text-center">
                                         <p class="m-0 mr-2">Click</p>
-                                        <img src="./img/mic-fill.png" alt="">
-                                        <p class="m-0 ml-2">then read the Sentence aloud</p>
+                                        <img src="./img/play-turquoise.png" alt="">
+                                        <p class="m-0 ml-2">did they accurately speak the sentence?</p>
                                     </div>
                                     <div class="mt-5 text-center">
                                         This characteristic immobility could be counteracted by the pre-administration
@@ -126,8 +126,8 @@
                                 <div>
                                     <div class="d-flex flex-wrap align-items-center justify-content-center text-center">
                                         <p class="m-0 mr-2">Click</p>
-                                        <img src="./img/mic-fill.png" alt="">
-                                        <p class="m-0 ml-2">then read the Sentence aloud</p>
+                                        <img src="./img/play-turquoise.png" alt="">
+                                        <p class="m-0 ml-2">did they accurately speak the sentence?</p>
                                     </div>
                                     <div class="mt-5 text-center">
                                         This characteristic immobility could be counteracted by the pre-administration
@@ -160,7 +160,7 @@
         <div class="intron-recorder-component">
             <div class="--custom-container">
                 <div class="row">
-                    <div class="col-12 col-md-4">
+                    <!-- <div class="col-12 col-md-4">
                         <div
                             class="recording-mic --bg-turqoise d-flex align-items-center justify-content-center flex-column --shadow">
                             <h2 class="--fs-34 --c-primary --f-poppins text-center">
@@ -173,10 +173,13 @@
                                 <img src="./img/recording-mic-mic.png" alt="">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-8 mt-5 mt-md-0">
+                    </div> -->
+                    <div class="col-12 mt-5 mt-md-0">
                         <div
                             class="waves bg-white d-flex align-items-center justify-content-center flex-column --shadow h-100">
+                            <p class="--fs-22 --fw-600 mb-4">
+                                Recording 1
+                            </p>
                             <p class="--fs-16">
                                 Check Your Recording Before To Submit.
                             </p>
@@ -185,13 +188,27 @@
                             </div>
 
                             <div class="row w-100">
-                                <div class="col-lg-4"></div>
+                                <div class="col-lg-4">
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <img src="./img/volume-down-icon.png" alt="">
+                                        </div>
+                                        <form class="ml-3 mr-3 flex-grow-1">
+                                            <div class="form-group m-0">
+                                                <input type="range" class="form-control-range" id="formControlRange">
+                                            </div>
+                                        </form>
+                                        <div>
+                                            <img src="./img/volume-up-icon.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-lg-4">
                                     <div class="d-flex align-items-center justify-content-center">
                                         <div>
                                             <a href="javascript:void(0);"
-                                                class="btn --extra-small-btn-rounded --bg-primary">
-                                                <img src="./img/repeat-icon.png" alt=""></a>
+                                                class="btn --extra-small-btn-rounded --bg-light --border-gray">
+                                                <img src="./img/previous-icon.png" alt=""></a>
                                         </div>
                                         <div class="ml-2 mr-2">
                                             <a href="javascript:void(0);" class="btn --small-btn-rounded --bg-turqoise">
@@ -199,8 +216,8 @@
                                         </div>
                                         <div>
                                             <a href="javascript:void(0);"
-                                                class="btn --extra-small-btn-rounded --bg-orange">
-                                                <img src="./img/delete-icon.png" alt=""></a>
+                                                class="btn --extra-small-btn-rounded --bg-light --border-gray">
+                                                <img src="./img/next-icon.png" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -208,13 +225,48 @@
                                     <div
                                         class="d-flex align-items-center justify-content-center justify-content-lg-end h-100">
                                         <a href="javascript:void(0);"
-                                            class="btn --small-btn --bg-secondary --border-radius-50 text-white">
-                                            SUBMIT
+                                            class="btn --small-btn --bg-secondary --border-radius-50 text-white d-flex align-items-center">
+                                            <div class="mr-2">
+                                                <img src="./img/thumbs-up.png" alt="">
+                                            </div> Yes
+                                        </a>
+                                        <a href="javascript:void(0);"
+                                            class="btn --small-btn --bg-orange --border-radius-50 text-white d-flex align-items-center position-relative ml-2">
+                                            <div class="mr-2">
+                                                <img src="./img/thumbs-down.png" class="position-absolute"
+                                                    style="left: 15px; top: 50%; transform: translateY(-40%);" alt="">
+                                            </div>
+                                            <p class="m-0 ml-4">
+                                                No
+                                            </p>
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-12 mt-3">
 
+                                    <a data-toggle="collapse"
+                                        class="--c-primary d-flex align-items-center justify-content-center w-100"
+                                        href="#collapseExample" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample" id="feedbackToggle">
+                                        <div>
+                                            Submit your feedback <i class="fa fa-chevron-down" id="toggleIcon"></i>
+                                        </div>
+                                    </a>
+
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="input-group mt-3">
+                                            <textarea class="form-control" placeholder="Write your feedback" rows="7"
+                                                aria-label="With textarea"></textarea>
+                                        </div>
+                                        <div class="d-flex justify-content-end mt-3">
+                                            <a href="javascript:void(0);"
+                                                class="btn --big-btn --bg-secondary --border-radius-50 text-white d-flex align-items-center">
+                                                Submit Feedback
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -228,4 +280,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        let feebackToggle = document.getElementById('feedbackToggle');
+
+        feebackToggle.addEventListener('click', function () {
+            let toggleIcon = document.getElementById('toggleIcon');
+            toggleIcon.classList.toggle('fa-chevron-up');
+        })
+
+    </script>
 </body>
