@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Fontawesome Kit -->
+    <script src="js/fontawesome.js"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <title>Intron - Admin Dashboard</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="--custom-container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white position-relative">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo_mark_dark_alt_big.png" alt="">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-lg-center ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Upload new sentences <span class="sr-only">(current)</span></a>
+                            <a href="javascript:void(0);" class="d-lg-none">
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Download recordings <span class="sr-only">(current)</span></a>
+                            <a href="javascript:void(0);" class="d-lg-none">
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Instructions <span class="sr-only">(current)</span></a>
+                            <a href="javascript:void(0);" class="d-lg-none">
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <div class="d-flex align-items-center">
+                                    <img src="./img/philip.png" alt="">
+                                    <p>Philip</p>
+                                </div>
+                            </a>
+                            <a href="javascript:void(0);" class="d-lg-none">
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="btn --small-btn --btn-orange --border-radius-50">
+                                Logout
+                            </a>
+                            <a href="javascript:void(0);" class="icon d-lg-none">
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="intron-dashboard intron-admin-dashboard mt-5 mb-5">
+        <div class="--custom-container">
+            <div>
+                <div
+                    class="intron-dashboard__top-stats p-4 --btn-gradient-to-left --border-tr-radius-20 --border-tl-radius-20 --shadow">
+                    <div
+                        class="intron-dashboard__top-tabs d-flex align-items-center flex-wrap justify-content-center justify-content-sm-between">
+                        <h3 class="--f-poppins --fs-34 --fw-600">User Activity</h3>
+                        <div
+                            class="intron-dashboard__tabs d-flex justify-content-center align-items-center mt-3 mt-sm-0">
+                            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active text-white --fs-small-10" id="pills-all-tab"
+                                        data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all"
+                                        aria-selected="true">All</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link text-white --fs-small-10" id="pills-country-tab"
+                                        data-toggle="pill" href="#pills-country" role="tab"
+                                        aria-controls="pills-country" aria-selected="false">By
+                                        Country</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link text-white --fs-small-10" id="pills-native-tab"
+                                        data-toggle="pill" href="#pills-native" role="tab" aria-controls="pills-native"
+                                        aria-selected="false">Native
+                                        Language</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="intron-dashboard__data p-4 bg-white --border-bl-radius-20 --border-br-radius-20 --shadow">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
+                            aria-labelledby="pills-all-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="d-flex align-items-center justify-content-center flex-column">
+                                        <h3 class="--f-poppins --fw-600 --fs-44 --c-orange">24</h3>
+                                        <p class="m-0 mt-3 --f-poppins --fw-400 --fs-18">Clips You've Recorded</p>
+                                        <a href="javascript:void(0);"
+                                            class="btn --large-btn text-white --bg-orange --border-radius-50 --f-poppins --fs-16 --fw-400 mt-3">Help
+                                            us to Record Again</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mt-3 mt-lg-0">
+                                    <div class="d-flex align-items-center justify-content-center flex-column">
+                                        <h1 class="--f-poppins --fw-600 --fs-64 --c-primary">99<small
+                                                class="--fs-24">min</small>
+                                        </h1>
+                                        <p class="m-0 mt-3 --f-poppins --fw-400 --fs-18">Total minutes of recordings</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mt-3 mt-lg-0">
+                                    <div class="d-flex align-items-center justify-content-center flex-column">
+                                        <h3 class="--f-poppins --fw-600 --fs-44 --c-secondary">04</h3>
+                                        <p class="m-0 mt-3 --f-poppins --fw-400 --fs-18">Clips You've Listened</p>
+                                        <a href="javascript:void(0);"
+                                            class="btn --large-btn text-white --bg-secondary --border-radius-50 --f-poppins --fs-16 --fw-400 mt-3">Help
+                                            us to Listen again</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-country" role="tabpanel"
+                            aria-labelledby="pills-country-tab">
+                            Map Plugin Will Go Here
+                        </div>
+                        <div class="tab-pane fade" id="pills-native" role="tabpanel" aria-labelledby="pills-native-tab">
+                            Pie Chart Will Go Here
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <div class="--border-radius-20 --shadow">
+                    <div class="intron-dashboard__recordings p-3 --border-tr-radius-20 --border-tl-radius-20">
+                        <div
+                            class="intron-dashboard__top-tabs bg-white d-flex align-items-center flex-wrap justify-content-center justify-content-sm-between">
+                            <h3 class="--f-poppins --fs-24 --fw-600">Recordings</h3>
+                            <div
+                                class="intron-dashboard__tabs d-flex justify-content-center align-items-center mt-3 mt-sm-0">
+                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link active --fs-small-10" id="per-day-tab" data-toggle="pill"
+                                            href="#per-day" role="tab" aria-controls="per-day" aria-selected="true">Per
+                                            Day</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link --fs-small-10" id="per-week-tab" data-toggle="pill"
+                                            href="#per-week" role="tab" aria-controls="per-week"
+                                            aria-selected="false">Week</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link --fs-small-10" id="per-month-tab" data-toggle="pill"
+                                            href="#per-month" role="tab" aria-controls="per-month"
+                                            aria-selected="false">Month</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intron-dashboard__data p-4 bg-white --border-bl-radius-20 --border-br-radius-20">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="per-day" role="tabpanel"
+                                aria-labelledby="per-day-tab">
+                                Recordings Plugin Will Go Here
+                            </div>
+                            <div class="tab-pane fade" id="per-week" role="tabpanel" aria-labelledby="per-week-tab">
+                                Map Plugin Will Go Here
+                            </div>
+                            <div class="tab-pane fade" id="per-month" role="tabpanel" aria-labelledby="per-month-tab">
+                                Pie Chart Will Go Here
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 --shadow --border-radius-20">
+                <div class="--btn-gradient-to-right p-3 --border-tl-radius-20 --border-tr-radius-20">
+                    <h3 class="--fs-22 --fw-500 --f-poppins --c-turquoise-dark">Reviewer Activity</h3>
+                </div>
+
+                <div class="--border-bl-radius-20 --border-br-radius-20 overflow-auto" style="max-height: 400px;">
+                    <table class="table table-striped m-0" style="min-width: 800px;">
+                        <thead class="--btn-gradient-to-right">
+                            <tr>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">Reviewer
+                                </th>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">Guest
+                                </th>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">User</th>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">Labeler
+                                </th>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">Download
+                                    Recordings</th>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">Blocked
+                                    Labelers</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="javascript:void(0);" class="--c-primary">Load more</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+            <div class="mt-5 --shadow --border-radius-20">
+                <div class="--btn-gradient-to-right p-3 --border-tl-radius-20 --border-tr-radius-20">
+                    <h3 class="--fs-22 --fw-500 --f-poppins --c-turquoise-dark">User Management</h3>
+                </div>
+                <div class="--border-bl-radius-20 --border-br-radius-20 overflow-auto" style="max-height: 400px;">
+                    <table class="table table-striped m-0" style="min-width: 800px;">
+                        <thead class="--btn-gradient-to-right">
+                            <tr>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">
+                                    User Name
+                                </th>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">
+                                    Sentences
+                                </th>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">
+                                    Total Recording Length</th>
+                                <th scope="col" class="--fs-14 --fw-400 --f-poppins">
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <div style="height: 28px; width: 28px;">
+                                            <img src="./img/user.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="m-0 ml-2 --fw-400 --fs-14 --f-poppins">
+                                            Thiziri
+                                        </p>
+                                    </div>
+                                </th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>
+                                    <a href="javascript:void(0);" class="--c-primary" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu --border-radius-20" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Upgrade user to reviewer</a>
+                                        <a class="dropdown-item" href="#">Upgrade a guest to labeler</a>
+                                        <a class="dropdown-item" href="#">Set Recording Limit</a>
+                                        <a class="dropdown-item --c-orange" href="#">Block user</a>
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <div style="height: 28px; width: 28px;">
+                                            <img src="./img/user.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="m-0 ml-2 --fw-400 --fs-14 --f-poppins">
+                                            Thiziri
+                                        </p>
+                                    </div>
+                                </th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>
+                                    <a href="javascript:void(0);" class="--c-primary" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu --border-radius-20" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Upgrade user to reviewer</a>
+                                        <a class="dropdown-item" href="#">Upgrade a guest to labeler</a>
+                                        <a class="dropdown-item" href="#">Set Recording Limit</a>
+                                        <a class="dropdown-item --c-orange" href="#">Block user</a>
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <div style="height: 28px; width: 28px;">
+                                            <img src="./img/user.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="m-0 ml-2 --fw-400 --fs-14 --f-poppins">
+                                            Thiziri
+                                        </p>
+                                    </div>
+                                </th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>
+                                    <a href="javascript:void(0);" class="--c-primary" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu --border-radius-20" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Upgrade user to reviewer</a>
+                                        <a class="dropdown-item" href="#">Upgrade a guest to labeler</a>
+                                        <a class="dropdown-item" href="#">Set Recording Limit</a>
+                                        <a class="dropdown-item --c-orange" href="#">Block user</a>
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <div style="height: 28px; width: 28px;">
+                                            <img src="./img/user.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="m-0 ml-2 --fw-400 --fs-14 --f-poppins">
+                                            Thiziri
+                                        </p>
+                                    </div>
+                                </th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>
+                                    <a href="javascript:void(0);" class="--c-primary" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu --border-radius-20" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Upgrade user to reviewer</a>
+                                        <a class="dropdown-item" href="#">Upgrade a guest to labeler</a>
+                                        <a class="dropdown-item" href="#">Set Recording Limit</a>
+                                        <a class="dropdown-item --c-orange" href="#">Block user</a>
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <div style="height: 28px; width: 28px;">
+                                            <img src="./img/user.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="m-0 ml-2 --fw-400 --fs-14 --f-poppins">
+                                            Thiziri
+                                        </p>
+                                    </div>
+                                </th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>
+                                    <a href="javascript:void(0);" class="--c-primary" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu --border-radius-20" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Upgrade user to reviewer</a>
+                                        <a class="dropdown-item" href="#">Upgrade a guest to labeler</a>
+                                        <a class="dropdown-item" href="#">Set Recording Limit</a>
+                                        <a class="dropdown-item --c-orange" href="#">Block user</a>
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <div style="height: 28px; width: 28px;">
+                                            <img src="./img/user.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="m-0 ml-2 --fw-400 --fs-14 --f-poppins">
+                                            Thiziri
+                                        </p>
+                                    </div>
+                                </th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>
+                                    <a href="javascript:void(0);" class="--c-primary" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu --border-radius-20" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Upgrade user to reviewer</a>
+                                        <a class="dropdown-item" href="#">Upgrade a guest to labeler</a>
+                                        <a class="dropdown-item" href="#">Set Recording Limit</a>
+                                        <a class="dropdown-item --c-orange" href="#">Block user</a>
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <div style="height: 28px; width: 28px;">
+                                            <img src="./img/user.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="m-0 ml-2 --fw-400 --fs-14 --f-poppins">
+                                            Thiziri
+                                        </p>
+                                    </div>
+                                </th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>
+                                    <a href="javascript:void(0);" class="--c-primary" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu --border-radius-20" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Upgrade user to reviewer</a>
+                                        <a class="dropdown-item" href="#">Upgrade a guest to labeler</a>
+                                        <a class="dropdown-item" href="#">Set Recording Limit</a>
+                                        <a class="dropdown-item --c-orange" href="#">Block user</a>
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <div style="height: 28px; width: 28px;">
+                                            <img src="./img/user.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="m-0 ml-2 --fw-400 --fs-14 --f-poppins">
+                                            Thiziri
+                                        </p>
+                                    </div>
+                                </th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>
+                                    <a href="javascript:void(0);" class="--c-primary" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu --border-radius-20" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Upgrade user to reviewer</a>
+                                        <a class="dropdown-item" href="#">Upgrade a guest to labeler</a>
+                                        <a class="dropdown-item" href="#">Set Recording Limit</a>
+                                        <a class="dropdown-item --c-orange" href="#">Block user</a>
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <div class="d-flex align-items-center">
+                                        <div style="height: 28px; width: 28px;">
+                                            <img src="./img/user.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="m-0 ml-2 --fw-400 --fs-14 --f-poppins">
+                                            Thiziri
+                                        </p>
+                                    </div>
+                                </th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>
+                                    <a href="javascript:void(0);" class="--c-primary" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <div class="dropdown-menu --border-radius-20" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Upgrade user to reviewer</a>
+                                        <a class="dropdown-item" href="#">Upgrade a guest to labeler</a>
+                                        <a class="dropdown-item" href="#">Set Recording Limit</a>
+                                        <a class="dropdown-item --c-orange" href="#">Block user</a>
+                                    </div>
+                                </td>
+
+
+
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="javascript:void(0);" class="--c-primary">Load more</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="intron-footer">
+        <div class="--custom-container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-left">
+                        <div>
+                            <img src="img/logo_mark_light_alt_big.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-3 mt-md-0">
+                    <p class="text-white --fs-18 text-center text-md-left">Explorer</p>
+                    <div class="d-flex justify-content-center justify-content-md-between w-100 mt-3">
+                        <a href="javascript:void(0);" class="text-white --fs-14 mr-2">Privacy</a>
+                        <a href="javascript:void(0);" class="text-white --fs-14 mr-2 ml-2">Terms</a>
+                        <a href="javascript:void(0);" class="text-white --fs-14 mr-2 ml-2">Cookies</a>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-12 col-md-4 mt-3 mt-md-0">
+                    <p class="text-white --fs-18 text-center text-md-left">Explorer</p>
+                    <div class="d-flex justify-content-center justify-content-md-between w-100 mt-3">
+                        <a href="javascript:void(0);" class="text-white --fs-16">
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-facebook mr-2"></i> Facebook
+                            </div>
+                        </a>
+                        <a href="javascript:void(0);" class="text-white --fs-16 ml-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-linkedin mr-2"></i> Facebook
+                            </div>
+                        </a>
+                        <a href="javascript:void(0);" class="text-white --fs-16 ml-2">
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-twitter mr-2"></i> Facebook
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script tags -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>

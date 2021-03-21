@@ -18,7 +18,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.min.css">
 
-    <title>Intron - Login</title>
+    <title>Intron - User Dashboard</title>
 </head>
 
 <body>
@@ -69,16 +69,17 @@
         </div>
     </div>
 
-    <div class="intron-user-dashboard mt-5 mb-5">
+    <div class="intron-dashboard intron-user-dashboard mt-5 mb-5">
         <div class="--custom-container">
             <div>
                 <div
-                    class="intron-user-dashboard__top-stats p-4 --btn-gradient-to-left --border-tr-radius-20 --border-tl-radius-20 --shadow">
-                    <div class="d-flex align-items-center flex-wrap justify-content-center justify-content-sm-between">
-                        <div class="--f-poppins --fs-34 --fw-600">
+                    class="intron-dashboard__top-stats p-4 --btn-gradient-to-left --border-tr-radius-20 --border-tl-radius-20 --shadow">
+                    <div
+                        class="intron-dashboard__top-tabs d-flex align-items-center flex-wrap justify-content-center justify-content-sm-between">
+                        <h3 class="--f-poppins --fs-34 --fw-600">
                             Status
-                        </div>
-                        <div class="mt-3 mt-sm-0">
+                        </h3>
+                        <div class="intron-dashboard__tabs d-flex justify-content-center mt-3 mt-sm-0">
                             <ul class="nav nav-pills" id="pills-tab" role="tablist">
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link active text-white --fs-small-10" id="pills-all-tab"
@@ -99,8 +100,7 @@
                         </div>
                     </div>
                 </div>
-                <div
-                    class="intron-user-dashboard__data p-4 bg-white --border-bl-radius-20 --border-br-radius-20 --shadow">
+                <div class="intron-dashboard__data p-4 bg-white --border-bl-radius-20 --border-br-radius-20 --shadow">
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
                             aria-labelledby="pills-all-tab">
@@ -145,7 +145,7 @@
             <div class="mt-5">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="intron-user-dashboard__contribution p-3 --shadow --border-radius-20">
+                        <div class="intron-dashboard__contribution p-3 --shadow --border-radius-20">
                             <h3 class="--f-poppins --fs-24 --fw-600">Contribution Activity</h3>
                             <div class="mt-3">
                                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
@@ -176,7 +176,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 mt-5 mt-lg-0">
-                        <div class="intron-user-dashboard__contributors p-3 --shadow --border-radius-20">
+                        <div class="intron-dashboard__contributors p-3 --shadow --border-radius-20">
                             <h3 class="--f-poppins --fs-24 --fw-600">Top Contributors</h3>
                             <div class="mt-3">
                                 <ul class="nav nav-pills" id="pills-tab" role="tablist">
@@ -322,7 +322,7 @@
                                     <div class="tab-pane fade" id="pills-listened" role="tabpanel"
                                         aria-labelledby="pills-listened-tab">
                                         <div class="overflow-auto" style="max-height: 350px;">
-                                            <div class="intron-user-dashboard__list d-flex flex-column">
+                                            <div class="intron-dashboard__list d-flex flex-column">
                                                 <div
                                                     class="--bg-dull d-flex align-items-center pt-2 pb-2 pl-3 pr-3 mt-1">
                                                     <div class="d-flex"><img src="./img/thiziri.png" alt=""></div>
@@ -440,7 +440,6 @@
                                                         </a>
                                                     </div>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
